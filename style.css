@@ -1,11 +1,13 @@
 * {
-  background-color: rgba(8, 8, 93, 0.8);
+  background-color: rgb(47, 24, 147);
   font-weight: 500;
   font-family: "DM Sans";
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   top: 65px;
   left: 213px;
   height: 40px;
@@ -47,7 +49,6 @@
 }
 
 a {
-  /* padding: 3px 7px; */
   text-decoration: none;
   padding: 0px 7px;
   text-decoration: none;
@@ -60,24 +61,35 @@ a {
   position: absolute;
   top: 187px;
   left: 715px;
+  width: 470px;
+  height: 600px;
   padding: 10px;
+  border-radius: 10px;
   background-color: #ffffff;
 }
 
 .mail {
   background-color: #ffffff;
   border: none;
+  justify-content: center;
+  display: flex;
 }
 
 .pass {
   background-color: #ffffff;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+.form_1 {
+  margin: 34px auto 0;
 }
 .form_1 input {
-  height: 27px;
-  width: 289px;
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
   border: 2px solid rgba(128, 128, 128, 0.566);
-  border-radius: 33px;
-  margin: 6px;
   padding: 0px 19px;
   background-color: #ffffff;
 }
@@ -88,15 +100,24 @@ a {
   margin: 4px;
   color: rgb(21, 20, 57, 0.4);
   background: #ffffff;
+  margin: 10px 25px 10px;
+}
+
+.check span {
+  background-color: #ffffff;
+  margin: 0 0 0 -15px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .check input {
-  width: 24px;
-  height: 24px;
-  align-items: center;
-  display: flex;
+  width: 18px;
+  height: 18px;
 }
 
+.check input[type="checkbox"] {
+  accent-color: rgba(37, 218, 197, 1);
+}
 .sub {
   display: flex;
   background-color: #ffffff;
@@ -112,6 +133,7 @@ a {
   justify-content: center;
   background-color: #ffffff;
   color: rgba(21, 20, 57, 0.4);
+  margin: 30px 0 0 0;
 }
 .sign {
   display: flex;
@@ -121,6 +143,7 @@ a {
   height: 52px;
   align-items: center;
   background: #ffffff;
+  margin: 38px 0 0 0;
 }
 
 #signi {
@@ -134,16 +157,23 @@ a {
   height: 496px;
   top: 219px;
   left: 209px;
+  color: #ffffff;
 }
 #abouthead {
   font-size: 58px;
   line-height: 70px;
   font-weight: 700;
+  height: 217px;
 }
 #aboutpara {
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
+  color: #ffffff;
+  text-align: left;
+  line-height: 32px;
+  width: 363px;
+  margin: 24px 0 0 0;
 }
 
 .startup {
@@ -152,20 +182,15 @@ a {
   height: 32px;
   width: 106px;
   font-size: 24px;
-  /* width: 972px; */
+  color: #ffffff;
 }
 
 .rightnav li {
   padding: 0px 14px;
-
-  /* padding: 0px 7px;
-    text-decoration: none;
-    align-items: center;
-    display: flex; */
 }
 
 #sub {
-  width: 330px;
+  width: 360px;
   height: 50px;
   border-radius: 100px;
   border: 1px transparent;
@@ -174,26 +199,43 @@ a {
   color: white;
 }
 #twit {
-  width: 330px;
+  width: 360px;
   height: 50px;
   border-radius: 100px;
   border: 1px transparent;
   background-color: rgba(29, 161, 242, 1);
   color: white;
   font-size: 18px;
-  /* position: fixed; */
-  /* top: 636px; */
-  /* left: 785px; */
 }
 
 .or {
   color: rgba(21, 20, 57, 0.4);
   background-color: #ffffff;
   display: flex;
+  padding: 18px 60px;
+}
+#or {
+  background-color: #ffffff;
+  margin: 0 10px;
 }
 
 .line {
-  border: 1px solid rgba(21, 20, 57, 0.4);
   width: 46%;
   background-color: #ffffff;
+  padding: 10px 0 0 0px;
+}
+
+.line div {
+  border: 1px solid rgba(235, 234, 237, 1);
+}
+
+#learn {
+  width: 157px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px transparent;
+  font-size: 18px;
+  background-color: rgba(233, 58, 125, 1);
+  color: #ffffff;
+  margin-top: 45px;
 }
